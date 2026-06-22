@@ -1,0 +1,26 @@
+.temoignages-section {
+  background-color: #2D4A3E;
+}
+
+.temoignages-section h2 { color: white; }
+.temoignages-section .text-muted { color: rgba(255,255,255,0.6) !important; }
+.text-or { color: #E9B824; }
+
+.temoignage-card {
+  border-radius: 12px;
+  background: white;
+  transition: transform 0.2s;
+}
+
+.temoignage-card:hover { transform: translateY(-4px); }
+
+.card-green { border-top: 4px solid #2D4A3E; }
+.card-yellow { border-top: 4px solid #E9B824; }
+.card-red { border-top: 4px solid #C84B31; }
+
+.temoignage-text { color: #444; font-size: 0.95rem; }
+.temoignage-author { color: #2D4A3E; }
+
+@media (max-width: 600px) {
+  .temoignage-card { margin-bottom: 0; }
+}

@@ -1,0 +1,20 @@
+.horaires-section {
+  background-color: #FAF3E0;
+}
+
+.text-or { color: #E9B824; }
+
+.list-group-item {
+  padding: 14px 20px;
+  border-color: rgba(0,0,0,0.08);
+}
+
+.current-day {
+  background-color: #2D4A3E !important;
+  color: white !important;
+}
+
+.current-day .jour-label { color: #E9B824; }
+.current-day .horaire-detail { color: white; }
+
+.horaire-detail { font-size: 0.9rem; color: #555; }

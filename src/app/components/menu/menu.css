@@ -1,0 +1,22 @@
+.menu-section {
+  background-color: #FAF3E0;
+}
+
+.text-or { color: #E9B824; }
+
+.dish-card {
+  border-radius: 12px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background: white;
+}
+
+.dish-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.1) !important;
+}
+
+.badge-entree  { background-color: #2D4A3E; color: white; padding: 6px 10px; border-radius: 4px; }
+.badge-plat    { background-color: #C84B31; color: white; padding: 6px 10px; border-radius: 4px; }
+.badge-dessert { background-color: #E9B824; color: #1a1a1a; padding: 6px 10px; border-radius: 4px; }
+
+.price { color: #C84B31; font-size: 1.05rem; }

@@ -1,0 +1,67 @@
+.hero {
+  position: relative;
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-color: #2D4A3E; /* fallback si image absente */
+  display: flex;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 0 48px;
+  max-width: 640px;
+}
+
+.eyebrow {
+  color: #E9B824;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  letter-spacing: 0.05em;
+}
+
+h1 {
+  color: white;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  color: rgba(255,255,255,0.85);
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+}
+
+.btn-cta {
+  display: inline-block;
+  background-color: #E9B824;
+  color: #2D4A3E;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 14px 32px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.2s;
+  min-height: 44px;
+}
+
+.btn-cta:hover {
+  background-color: #C84B31;
+  color: white;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+  .content { padding: 0 24px; }
+  .btn-cta { display: block; text-align: center; }
+}

@@ -1,0 +1,27 @@
+<section id="temoignages" class="temoignages-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-2">Ce qu'ils <span class="text-or">en disent</span></h2>
+    <p class="text-center text-muted mb-5">Avis de nos clients fidèles</p>
+
+    <div class="row">
+      @for (t of testimonials; track t.id) {
+        <div class="col-12 col-md-4 mb-4">
+          <div class="temoignage-card p-4 h-100"
+            [class.card-green]="t.rating > 3"
+            [class.card-yellow]="t.rating === 3"
+            [class.card-red]="t.rating < 3">
+
+            <div class="stars mb-3">
+              @for (star of getStars(t.rating); track $index) {
+                <span>⭐</span>
+              }
+            </div>
+
+            <p class="temoignage-text fst-italic mb-3">"{{ t.text }}"</p>
+            <p class="temoignage-author fw-bold mb-0">— {{ t.name }}</p>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

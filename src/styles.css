@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --vert-fonce: #2D4A3E;
+  --terracotta: #C84B31;
+  --or: #E9B824;
+  --creme: #FAF3E0;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--creme);
+  color: #1a1a1a;
+}
+
+h2 { font-weight: 700; }
+
+.text-or        { color: var(--or); }
+.text-terracotta{ color: var(--terracotta); }
+.bg-vert        { background-color: var(--vert-fonce) !important; }
+.bg-terracotta  { background-color: var(--terracotta) !important; }
+.bg-or          { background-color: var(--or) !important; }
+.bg-creme       { background-color: var(--creme) !important; }
