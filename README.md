@@ -1,3 +1,6 @@
+<img width="624" height="544" alt="tablette" src="https://github.com/user-attachments/assets/1831d693-330c-4a15-a367-36d968cb1166" />
+<img width="426" height="587" alt="mobile" src="https://github.com/user-attachments/assets/84d2933f-0d0f-44fb-bd5e-e5dcfb6573d5" />
+<img width="1354" height="659" alt="desktop" src="https://github.com/user-attachments/assets/01731038-4cec-41d5-bcdb-dd1140d83f0a" />
 # CalaoDore
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.1.
