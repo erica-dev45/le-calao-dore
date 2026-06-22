@@ -3,7 +3,7 @@
   min-height: 90vh;
   background-size: cover;
   background-position: center;
-  background-color: #2D4A3E; /* fallback si image absente */
+   background-color: #2D4A3E; /*fallback si image absente */
   display: flex;
   align-items: center;
 }
@@ -21,7 +21,7 @@
   max-width: 640px;
 }
 
-.eyebrow {
+.tag-line {
   color: #E9B824;
   font-size: 1rem;
   margin-bottom: 12px;
@@ -30,7 +30,6 @@
 
 h1 {
   color: white;
-  font-size: clamp(2rem, 5vw, 3.5rem);
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 16px;
@@ -65,3 +64,4 @@ h1 {
   .content { padding: 0 24px; }
   .btn-cta { display: block; text-align: center; }
 }
+
