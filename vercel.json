@@ -1,10 +1,10 @@
-{ 
-  "buildCommand": "npm run build", 
-  "outputDirectory": "dist/Calao-Dore/browser", 
-  "rewrites": [ 
-    { 
-      "source": "/(.*)", 
-      "destination": "/index.html" 
-    } 
-  ] 
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/Calao-Dore",
+  "framework": "angular",
+  "installCommand": "npm install",
+  "rewrites": [
+    { "source": "/(.*)",
+     "destination": "/index.html" }
+  ]
 }
