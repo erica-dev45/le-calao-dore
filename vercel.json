@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/Calao-Dore",
+  "outputDirectory": "dist/Calao-Dore/browser",
   "framework": "angular",
   "installCommand": "npm install",
   "rewrites": [
